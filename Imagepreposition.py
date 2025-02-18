@@ -4,7 +4,7 @@ import numpy as np
 
 class Image:
     def __init__(self):
-        self._frame = []
+        self._frame = None
         self._roi_image = []
         self.model_input_image = []
     
