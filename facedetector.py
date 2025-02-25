@@ -55,3 +55,5 @@ class Facedetector:
         image_obj.set_frame(img) # we update frames in image object with img 
 
         return image_obj
+    
+    

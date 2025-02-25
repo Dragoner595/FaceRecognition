@@ -30,6 +30,7 @@ class Image:
 
         return self._roi_image
     
+    
     def set_input(self):
         """
         Get the list of processed model input images
@@ -56,6 +57,7 @@ class Image:
                 #append to teh model input list 
 
                 self._model_input_image.append(processed_image)
+
 
 
 
